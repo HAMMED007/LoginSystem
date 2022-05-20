@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginsytem.SignUpController">
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #000080;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="-9.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@cool-logo.png" />
+               </image></ImageView>
+            <Label layoutX="58.0" layoutY="242.0" text="Database project" textFill="WHITE" />
+            <Label layoutX="46.0" layoutY="277.0" text="Afenifere Hammed" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="436.0">
+         <children>
+            <Label layoutX="50.0" layoutY="85.0" text="USERNAME">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="156.0" text="PASSWORD">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tf_username" layoutX="166.0" layoutY="87.0" />
+            <TextField fx:id="tf_password" layoutX="166.0" layoutY="159.0" />
+            <Label layoutX="143.0" layoutY="209.0" text="YOUR FAVOURITE DATABASE IS :">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="rb_microsoft" layoutX="157.0" layoutY="234.0" mnemonicParsing="false" text="Microsoft MySQL" />
+            <RadioButton fx:id="rb_oracle" layoutX="161.0" layoutY="263.0" mnemonicParsing="false" text="Oracle MySQL" />
+            <Button fx:id="button_register" layoutX="190.0" layoutY="293.0" mnemonicParsing="false" text="Register" />
+            <Label layoutX="60.0" layoutY="343.0" text="Already a member? " />
+            <Button fx:id="button_log_in" layoutX="179.0" layoutY="339.0" mnemonicParsing="false" text="Login" />
+         </children></AnchorPane>
+   </children>
+</HBox>

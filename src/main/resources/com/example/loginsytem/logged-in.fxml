@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.loginsytem.LoginController">
+   <children>
+      <Label fx:id="label_welcome" layoutX="223.0" layoutY="60.0" text="WELCOME!">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_fav_database" layoutX="103.0" layoutY="135.0" text="Your Favorite Database is MySQL">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_logout" layoutX="259.0" layoutY="232.0" mnemonicParsing="false" style="-fx-background-color: #000080;" text="Logout" textFill="WHITE" />
+   </children>
+</AnchorPane>
